@@ -1,5 +1,8 @@
 // takes a string and says it, means 1 => 11 (one 1) 21 => 1211(one 2 one 1) 111223 => 312213(three 1 , two 2, one 3)
 
+// you can further improve this by not making result as an array but a string and you keep appending 
+// to it as you go, that will save last join
+
 let says = (num) => {
   let toScan = num.toString().split('');
   let count = 1;
