@@ -14,7 +14,7 @@ function encodePhone(num) {
 }
 
 function getCombinations(args) {
-  console.log(args);
+
   if (args.length === args.join('').length) {
     if (!result.includes(args.join(''))) {
       return result.push(args.join(''));
